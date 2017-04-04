@@ -14,6 +14,7 @@ fake-factory==0.7.2
 flake8==3.0.4
 gnureadline==6.3.3
 gunicorn==19.6.0
+graphene==1.2
 graphene-django==1.0
 ipython==4.2.0
 ipython-genutils==0.1.0
