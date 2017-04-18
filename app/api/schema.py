@@ -5,7 +5,7 @@ from .cruds.user_crud import UserNode, CreateUser, UpdateUser, DeleteUser
 from .cruds.dish_crud import DishNode, CreateDish, UpdateDish, DeleteDish
 from .cruds.weekday_crud import (WeekdayNode, CreateWeekday, UpdateWeekday,
                                  DeleteWeekday,)
-from .cruds.vendor_crud import VendorNode, CreateVendor
+from .cruds.vendor_crud import VendorNode, CreateVendor, UpdateVendor
 
 
 class Query(graphene.AbstractType):
@@ -36,3 +36,4 @@ class Mutation(graphene.ObjectType):
     delete_weekday = DeleteWeekday.Field()
 
     create_vendor = CreateVendor.Field()
+    update_vendor = UpdateVendor.Field()
